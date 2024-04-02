@@ -1,0 +1,8 @@
+export ZONE=
+
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Cloud%20Packet%20Mirroring%20with%20OpenSource%20IDS/quicklabgsp474.sh
+
+sudo chmod +x quicklabgsp474.sh
+
+./quicklabgsp474.sh
