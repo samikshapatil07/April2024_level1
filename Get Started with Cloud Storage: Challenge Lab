@@ -1,0 +1,5 @@
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Get%20Started%20with%20Cloud%20Storage%20Challenge%20Lab/quicklabarc111.sh
+
+sudo chmod +x quicklabarc111.sh
+
+./quicklabarc111.sh
