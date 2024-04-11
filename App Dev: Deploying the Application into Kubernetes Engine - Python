@@ -1,8 +1,5 @@
 export ZONE=
 
-
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/App%20Dev%20Deploying%20the%20Application%20into%20Kubernetes%20Engine%20Python/quicklabgsp188.sh
-
-sudo chmod +x quicklabgsp188.sh
-
-./quicklabgsp188.sh
+git clone https://github.com/CodingWithHardik/GSP188-cloudhustlers.git
+cd ~/GSP188-cloudhustlers/
+. prepare_environment.sh
