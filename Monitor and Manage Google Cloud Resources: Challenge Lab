@@ -1,8 +1,8 @@
-export USERNAME2=
-export REGION=
-export BUCKET_NAME=
-export TOPIC_NAME=
-export FUNCTION_NAME=
+export USERNAME2=student-02-2b7ca5d593de@qwiklabs.net
+export REGION=us-west1
+export BUCKET_NAME=travel-bucket-qwiklabs-gcp-03-038462229b1a
+export TOPIC_NAME=travel-topic-471
+export FUNCTION_NAME=travel-thumbnail-generator
 
 
 
@@ -125,6 +125,9 @@ while true; do
 done
 curl -o travel.jpg https://storage.googleapis.com/cloud-training/arc101/travel.jpg
 gsutil cp travel.jpg gs://$BUCKET_NAME/travel.jpg
+
+
+
 Search Create alerting policy > Select a metric
 
 Click on Active
@@ -142,7 +145,7 @@ In Email > Add New
 
 In Email Address write arc101@cloudhustlers.in
 
-In Display Name write CloudHustlers
+In Display Name write CloudHub
 
 Save > Close
 
