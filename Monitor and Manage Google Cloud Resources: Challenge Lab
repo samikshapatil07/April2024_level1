@@ -1,4 +1,4 @@
-export USERNAME2=student-03-3cd9a7563aeb@qwiklabs.net.
+export USERNAME2=student-03-3cd9a7563aeb@qwiklabs.net
 export REGION=us-west1
 export BUCKET_NAME=travel-bucket-qwiklabs-gcp-03-038462229b1a
 export TOPIC_NAME=travel-topic-471
